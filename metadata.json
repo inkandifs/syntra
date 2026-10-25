@@ -1,0 +1,6 @@
+{
+  "name": "SYNTRA - AICTE Unified Complaint Intelligence",
+  "description": "Unified Complaint Intelligence and Cross-Bureau Coordination Platform for AICTE (SIH 2026 / SIH26264).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

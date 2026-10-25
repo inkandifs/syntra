@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-gold: #C9AE7C;
+    --color-gold-dark: #B39358;
+    --color-charcoal: #1F1F24;
+    --color-body: #3A3A40;
+    --color-bg: #F2F2F3;
+    --color-border: #E3E3E6;
+    --color-purple: #655A86;
+    --color-success: #4F8A6B;
+    --color-warning: #C9953A;
+    --color-danger: #B5524A;
+    --color-info: #4C6FA5;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--color-body);
+    background-color: var(--color-bg);
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom scrollbars for structured institutional feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #EBEBEF;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8C8D0;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A4A4B0;
+}
+
